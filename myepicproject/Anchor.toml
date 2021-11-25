@@ -1,0 +1,12 @@
+[programs.localnet]
+myepicproject = "r28ZdAy88LERxSdcZUUYYT8GESSMLMABGxJHMXvaVcX"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/user/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
